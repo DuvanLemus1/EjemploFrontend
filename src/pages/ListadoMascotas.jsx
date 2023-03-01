@@ -26,6 +26,8 @@ function ListadoMascotas() {
                   {mascotas.nombre}
                   {" --- "}
                   {mascotas.persona.nombre}
+                  {" --- "}
+                  {mascotas.persona.domicilio}
           </li>
           
         ))}
